@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Projetos - Conexão Social</title>
+    <meta name="description" content="Conheça nossos projetos sociais nas áreas de educação, saúde e meio ambiente. Saiba como doar ou ser voluntário.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header role="banner">
+        <div class="container header-container">
+            <h1><a href="index.html">Conexão Social</a></h1>
+            <button class="menu-toggle" aria-controls="menu-lista" aria-expanded="false">&#9776; Menu</button>
+            <nav role="navigation" aria-label="Menu Principal">
+                <ul id="menu-lista">
+                    <li><a href="index.html">Início</a></li>
+                    <li class="dropdown-container">
+                        <a href="projetos.html">Projetos <span aria-hidden="true">▼</span></a>
+                        <ul class="submenu">
+                            <li><a href="projetos.html#projeto-edu">Educação</a></li>
+                            <li><a href="projetos.html#projeto-saude">Saúde</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cadastro.html" class="btn btn-secundario">Participe</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="projetos-titulo">Conheça Nossos Projetos</h1>
+                    <p>Cada projeto é uma semente de mudança. Veja onde seu apoio pode fazer a diferença.</p>
+                </div>
+            </div>
+
+            <section class="row" aria-labelledby="projetos-titulo">
+                
+                <div id="projeto-edu" class="col-12 col-md-6 col-lg-4">
+                    <article class="card" aria-labelledby="projeto-edu-titulo">
+                        <div class="card-imagem">
+                            <img src="assets/images/projeto-educacao.jpg" alt="Crianças em uma sala de aula de informática sorrindo.">
+                        </div>
+                        <div class="card-conteudo">
+                            <span class="badge badge-educacao">Educação</span>
+                            <h3 id="projeto-edu-titulo">Educação Digital para Todos</h3>
+                            <p>Levamos laboratórios de informática e aulas de programação para escolas em áreas rurais.</p>
+                            <a href="#" class="btn btn-primario">Saiba Mais</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div id="projeto-saude" class="col-12 col-md-6 col-lg-4">
+                    <article class="card" aria-labelledby="projeto-saude-titulo">
+                        <div class="card-imagem">
+                            <img src="assets/images/projeto-saude.jpg" alt="Uma van de atendimento médico parada em uma vila.">
+                        </div>
+                        <div class="card-conteudo">
+                            <span class="badge badge-saude">Saúde</span>
+                            <h3 id="projeto-saude-titulo">Saúde Itinerante</h3>
+                            <p>Nossa unidade móvel de saúde leva atendimento médico e odontológico básico a comunidades isoladas.</p>
+                            <a href="#" class="btn btn-primario">Saiba Mais</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="card" aria-labelledby="projeto-amb-titulo">
+                        <div class="card-imagem">
+                            <img src="assets/images/ong-missao.jpg" alt="Pessoas plantando árvores.">
+                        </div>
+                        <div class="card-conteudo">
+                            <span class="badge" style="background-color: #e6ffed; color: #28a745;">Meio Ambiente</span>
+                            <h3 id="projeto-amb-titulo">Horta Comunitária</h3>
+                            <p>Ensinamos agricultura urbana e sustentável, gerando alimento e renda para famílias locais.</p>
+                            <a href="#" class="btn btn-primario">Saiba Mais</a>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+
+            <section class="row" aria-labelledby="participe-titulo">
+                <div class="col-12">
+                    <h2 id="participe-titulo">Faça Parte da Mudança</h2>
+                </div>
+                
+                <div class="col-12 col-md-6">
+                    <aside>
+                        <h3>Seja um Voluntário</h3>
+                        <p>Seu tempo e talento são transformadores. Precisamos de médicos, professores, desenvolvedores e muito mais.</p>
+                        <a href="cadastro.html" class="btn btn-primario">Quero ser Voluntário</a>
+                    </aside>
+                </div>
+                
+                <div class="col-12 col-md-6">
+                    <aside>
+                        <h3>Como Doar</h3>
+                        <p>Sua doação financia nossos projetos e garante que o impacto continue. 100% da sua doação vai para a causa.</p>
+                        <a href="cadastro.html" class="btn btn-secundario">Doar Agora</a>
+                    </aside>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2025 Conexão Social. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
